@@ -1,0 +1,45 @@
+.header{
+    text-align: center;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select{
+    width: 200px;
+}
+
+.tabla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    
+    width: 80vh;
+
+    margin-top: 30px;
+
+    border-collapse: collapse;
+
+    
+}
+
+th,td{
+    padding: 10px;
+}
+
+th{
+    text-align: left;
+    background-color: black;
+    color: aliceblue;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
